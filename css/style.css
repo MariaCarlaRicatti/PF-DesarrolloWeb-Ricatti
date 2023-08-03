@@ -201,6 +201,24 @@ h3 {
     padding: 10px;
     border: #A49393 2px solid; }
 
+@media (max-width: 1080px) {
+  .variadas {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; }
+  .aurelias {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; }
+  .humedales {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; }
+  .moñete {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; } }
+
 h2 {
   text-align: center;
   font-family: "Signika Negative", sans-serif;
@@ -235,6 +253,23 @@ h4 {
     padding: 20px;
     border-radius: 40px;
     border: #e063e0 3px solid; }
+
+@media (max-width: 1080px) {
+  .perfil-cris {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center; }
+    .perfil-cris p {
+      font-size: large;
+      flex-direction: column;
+      align-content: center;
+      text-align: justify;
+      margin: auto;
+      padding: 5px; }
+    .perfil-cris img {
+      display: flex;
+      width: 450px; } }
 
 #fototeca-taller {
   display: grid;
@@ -292,6 +327,24 @@ h3 {
   margin: 5px 10px;
   color: #beb58c; }
 
+@media (max-width: 1080px) {
+  #fototeca-taller {
+    display: flex !important;
+    flex-direction: column;
+    flex-wrap: wrap; }
+    #fototeca-taller img {
+      width: 300px;
+      height: auto;
+      margin: 20px;
+      border-radius: 20px; }
+      #fototeca-taller img:hover {
+        transform: scale(1.1);
+        transition: 1s; }
+  h3 {
+    font-size: 30px; }
+  .tecnicas-tipos p {
+    font-size: 20px; } }
+
 form {
   display: flex;
   flex-direction: column;
@@ -318,40 +371,6 @@ input:focus {
   color: white; }
 
 @media (max-width: 1080px) {
-  /* Del perfil de Cris */
-  .perfil-cris {
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    align-items: center; }
-    .perfil-cris p {
-      font-size: large;
-      flex-direction: column;
-      align-content: center;
-      text-align: justify;
-      margin: auto;
-      padding: 5px; }
-    .perfil-cris img {
-      display: flex;
-      width: 450px; }
-  /* De las obras */
-  .variadas {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap; }
-  .aurelias {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap; }
-  .humedales {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap; }
-  .moñete {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap; }
-  /* Del formurario de contacto */
   .formulario-contacto input {
     display: flex;
     flex-wrap: wrap;

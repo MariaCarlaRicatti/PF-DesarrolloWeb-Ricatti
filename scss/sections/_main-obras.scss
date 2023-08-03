@@ -99,3 +99,31 @@ h3 {
         border: #A49393 2px solid;
     }
 }
+
+//Medias-queries//
+@media (max-width: 1080px) {
+    .variadas {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .aurelias {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .humedales {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .moñete {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+}

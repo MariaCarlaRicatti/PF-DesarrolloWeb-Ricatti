@@ -29,3 +29,12 @@ input:focus {
     background-color: #756767;
     color: white;
 }
+
+//medias-queries//
+@media (max-width: 1080px) {
+    .formulario-contacto input {
+        display: flex;
+        flex-wrap: wrap;
+        width: auto;
+    }
+}
