@@ -1,0 +1,58 @@
+@media (max-width: 1080px) {
+
+    /* Del perfil de Cris */
+    .perfil-cris {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+
+        p {
+            font-size: large;
+            flex-direction: column;
+            align-content: center;
+            text-align: justify;
+            margin: auto;
+            padding: 5px;
+        }
+
+        img {
+            display: flex;
+            width: 450px;
+            
+        }
+    }
+
+    /* De las obras */
+    .variadas {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .aurelias {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .humedales {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .moñete {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+
+    /* Del formurario de contacto */
+    .formulario-contacto input {
+        display: flex;
+        flex-wrap: wrap;
+        width: auto;
+    }
+}

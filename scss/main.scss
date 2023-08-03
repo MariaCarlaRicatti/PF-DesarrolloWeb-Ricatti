@@ -1,0 +1,21 @@
+@import "../utilidades/colors";
+@import "../utilidades/fonts";
+@import "../utilidades/gradientes";
+
+@import "./sections/header";
+@import "./sections/main-inicio";
+@import "./sections/footer";
+@import "./sections/main-obras";
+@import "./sections/main-artista";
+@import "./sections/main-taller";
+@import "./sections/main-contacto";
+@import "./sections/media-queries";
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+

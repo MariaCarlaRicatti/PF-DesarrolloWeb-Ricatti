@@ -1,0 +1,39 @@
+.footer {
+    background-color: #647e7e;
+    padding: 5px;
+
+    a {
+        color: $gris-claro;
+        text-decoration: none;
+        font-size: 18px;
+        padding: 5px;
+        display: block;
+        margin: 10px;
+        &:hover {
+            background-color: #afa5a5;
+            width: fit-content;
+            padding: 5px;
+            color: #272727 !important;
+            border-radius: 25px;
+        }
+    }
+
+    .redes {
+        display: flex;
+        justify-content: flex-end;
+        margin: 10px 10px 0px 10px;
+        padding: 10px;
+
+        img {
+            width: 30px;
+            height: 30px;
+            margin: 10px;
+        }
+    }
+
+    .cpr {
+        text-align: center;
+        text-decoration: none !important;
+        color: white;
+    }
+}

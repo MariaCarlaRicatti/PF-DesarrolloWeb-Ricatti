@@ -1,0 +1,77 @@
+main {
+    padding: 10px;
+
+    div {
+        width: 70%;
+        margin: auto;
+        padding: auto;
+        padding-top: 20px;
+
+        .carousel-inner {
+            width: 100%;
+        }
+    }
+
+    section {
+        color: #cac6c6;
+        font-size: 30px;
+        width: 90%;
+        margin: auto;
+        padding: 50px;
+        text-align: justify;
+    }
+
+    .inicio {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        li {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 10px 10px;
+            margin: 30px 10px;
+            border: 3px solid #adacac;
+            border-radius: 15px;
+            justify-content: space-evenly;
+            font-family: 'Julius Sans One', sans-serif;
+            list-style-type: none;
+            width: 350px;
+            height: 250px;
+            text-align: center;
+
+            a {
+                font-size: 20px;
+                color: yellow;
+                text-align: center;
+                text-decoration: none;
+                font-weight: bold;
+            }
+        }
+
+        .A {
+            background-image: url(../recursos/obras-varias/mandarinas-mante-rayas.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .B {
+            background-image: url(../recursos/aurelia/aurelia-sapo.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .C {
+            background-image: url(../recursos/humedales/humedal0.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .D {
+            background-image: url(../recursos/niña-moño-rojo/niña-trenzas-pajaritos.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+    }
+}
