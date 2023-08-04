@@ -71,22 +71,6 @@ main {
         text-align: center;
         text-decoration: none;
         font-weight: bold; }
-    main .inicio .A {
-      background-image: url(../recursos/obras-varias/mandarinas-mante-rayas.jpg);
-      background-position: center;
-      background-size: cover; }
-    main .inicio .B {
-      background-image: url(../recursos/aurelia/aurelia-sapo.jpg);
-      background-position: center;
-      background-size: cover; }
-    main .inicio .C {
-      background-image: url(../recursos/humedales/humedal0.jpg);
-      background-position: center;
-      background-size: cover; }
-    main .inicio .D {
-      background-image: url(../recursos/niña-moño-rojo/niña-trenzas-pajaritos.jpg);
-      background-position: center;
-      background-size: cover; }
 
 .footer {
   background-color: #647e7e;
@@ -265,9 +249,10 @@ h4 {
 
 @media (max-width: 1080px) {
   .perfil-cris {
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(7, 1fr);
+    justify-content: space-around;
     align-items: center; }
     .perfil-cris p {
       font-size: large;
@@ -278,7 +263,7 @@ h4 {
       padding: 5px; }
     .perfil-cris img {
       display: flex;
-      width: 450px; } }
+      width: 350px; } }
 
 #fototeca-taller {
   display: grid;
