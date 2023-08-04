@@ -118,6 +118,11 @@ main {
     text-decoration: none !important;
     color: white; }
 
+@media (max-width: 1080px) {
+  a {
+    display: flex !important;
+    flex-wrap: wrap; } }
+
 h1 {
   text-align: center;
   font-family: sans-serif;
@@ -205,19 +210,23 @@ h3 {
   .variadas {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    align-content: space-around; }
   .aurelias {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    align-content: space-around; }
   .humedales {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    align-content: space-around; }
   .moñete {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap; } }
+    flex-wrap: wrap;
+    align-content: space-around; } }
 
 h2 {
   text-align: center;

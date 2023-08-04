@@ -6,19 +6,18 @@
     justify-content: space-evenly;
     justify-items: center;
     align-items: center;
-    
 
     img {
         width: 400px;
         height: auto;
         margin: 20px;
         border-radius: 20px;
-        &:hover { 
+
+        &:hover {
             transform: scale(1.1);
             transition: 1s;
         }
     }
-
 }
 
 h3 {
@@ -60,7 +59,6 @@ h3 {
         text-align: justify;
         color: $azul-oscuro;
     }
-
 }
 
 .tecnicas-tipos li {
@@ -78,24 +76,28 @@ h3 {
 
 //Medias-queries//
 @media (max-width: 1080px) {
-    #fototeca-taller{
+    #fototeca-taller {
         display: flex !important;
         flex-direction: column;
         flex-wrap: wrap;
+
         img {
             width: 300px;
             height: auto;
             margin: 20px;
             border-radius: 20px;
-            &:hover { 
+
+            &:hover {
                 transform: scale(1.1);
                 transition: 1s;
             }
-        } 
+        }
     }
+
     h3 {
         font-size: 30px;
     }
+
     .tecnicas-tipos p {
         font-size: 20px;
     }
