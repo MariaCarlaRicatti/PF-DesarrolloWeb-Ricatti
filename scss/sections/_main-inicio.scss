@@ -51,3 +51,11 @@ main {
         }
     }
 }
+
+@media (max-width: 1080px) {
+    main{
+    section {
+        font-size: 20px;
+    }
+}
+}
